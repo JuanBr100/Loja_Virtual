@@ -12,6 +12,7 @@ export default function Shoes(props) {
  }
 
  return (
+  
    <TouchableOpacity style={styles.container} onPress={props.onClick}>
       <Image
         source={props.img}
